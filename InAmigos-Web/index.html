@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InAmigos Foundation – Uniting Minds for A Change</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════ -->
+  <nav>
+    <a class="nav-logo" href="#">
+      <img src="logo.png" alt="InAmigos Foundation Logo" class="nav-logo-img" />
+      <span class="nav-logo-name">InAmigos Foundation</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════
+     HERO SECTION
+══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Floating decorative blobs -->
+    <div class="hero-float-1"></div>
+    <div class="hero-float-2"></div>
+    <div class="hero-float-3"></div>
+
+    <div class="hero-inner">
+
+      <!-- Left: Text Content -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span></span> Section 8 Registered NGO · Est. 2020
+        </div>
+
+        <h1>
+          <span class="highlight">InAmigos</span><br />
+          Foundation<br />
+          Uniting Minds for A Change 🌟
+        </h1>
+
+        <p class="hero-subtitle">
+          Creating lasting social impact through education, environment protection,
+          women empowerment, youth development, animal welfare, and social support
+          across India.
+        </p>
+
+        <div class="hero-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScAgWgiWEjMm5N5HO9f-kF5_MNCsFu0AjfF9-sFnWGYdJG7Jg/viewform"
+            target="_blank" class="btn-primary">Volunteer Now</a>
+          <a href="contact.html" class="btn-secondary">Join Us-></a>
+        </div>
+      </div>
+
+      <!-- Right: Photo Slideshow Card -->
+      <div class="hero-illustration">
+        <div class="hero-visual">
+
+          <!-- Slideshow -->
+          <div class="hero-slideshow" id="heroSlideshow">
+            <div class="slide active">
+              <img src="photos/1738048982.jpg" alt="InAmigos Foundation – Community Work" />
+            </div>
+            <div class="slide">
+              <img src="photos/1738054440.jpg" alt="InAmigos Foundation – Volunteers" />
+            </div>
+            <div class="slide">
+              <img src="photos/1738054473.jpg" alt="InAmigos Foundation – Education Drive" />
+            </div>
+            <div class="slide">
+              <img src="photos/1738238755.jpg" alt="InAmigos Foundation – Social Impact" />
+            </div>
+
+            <!-- Prev / Next -->
+            <button class="slide-btn slide-prev" id="slidePrev" aria-label="Previous">&#8249;</button>
+            <button class="slide-btn slide-next" id="slideNext" aria-label="Next">&#8250;</button>
+
+            <!-- Dots -->
+            <div class="slide-dots">
+              <span class="dot active" data-idx="0"></span>
+              <span class="dot" data-idx="1"></span>
+              <span class="dot" data-idx="2"></span>
+              <span class="dot" data-idx="3"></span>
+            </div>
+          </div>
+
+          <!-- Quick stat chips -->
+          <div class="stat-chips">
+            <div class="stat-chip">
+              <strong>50K+</strong>
+              <small>Meals Served</small>
+            </div>
+            <div class="stat-chip">
+              <strong>20K+</strong>
+              <small>Trees Planted</small>
+            </div>
+            <div class="stat-chip">
+              <strong>28</strong>
+              <small>States</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+     ABOUT SECTION
+══════════════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left: Story Text -->
+        <div class="about-text">
+          <p class="section-label">Who We Are</p>
+          <h2 class="section-title">Driven by Compassion,<br />Powered by Community</h2>
+          <div class="about-tag">🇮🇳 Section 8 Registered · Pan-India</div>
+          <p>
+            InAmigos Foundation is a Section 8 registered nonprofit organization founded
+            in 2020, working across India to create positive social change through
+            impactful community initiatives.
+          </p>
+          <p>
+            We believe that every individual deserves dignity, opportunity, and a safe
+            environment. Our passionate team of volunteers and interns work tirelessly
+            across 28 states to make this a reality.
+          </p>
+          <a href="#projects" class="btn-primary" style="font-size:0.9rem; margin-top:8px;">
+            Explore Our Work →
+          </a>
+        </div>
+
+        <!-- Right: Focus Area Cards -->
+        <div class="about-cards">
+          <div class="about-card reveal">
+            <div class="about-icon" style="background:rgba(52,152,219,0.12);">📚</div>
+            <h4>Education</h4>
+            <p>Empowering underprivileged children with knowledge and care.</p>
+          </div>
+
+          <div class="about-card reveal reveal-delay-1">
+            <div class="about-icon" style="background:rgba(46,204,113,0.12);">🌍</div>
+            <h4>Environment</h4>
+            <p>Protecting nature through drives and plantation campaigns.</p>
+          </div>
+
+          <div class="about-card reveal reveal-delay-2">
+            <div class="about-icon" style="background:rgba(155,89,182,0.12);">👩</div>
+            <h4>Women Empowerment</h4>
+            <p>Skills, opportunities, and confidence for every woman.</p>
+          </div>
+
+          <div class="about-card reveal reveal-delay-3">
+            <div class="about-icon" style="background:rgba(231,76,60,0.12);">🐾</div>
+            <h4>Animal Welfare</h4>
+            <p>Rescue, care, and support for animals in need.</p>
+          </div>
+
+          <div class="about-card reveal reveal-delay-2">
+            <div class="about-icon" style="background:rgba(241,196,15,0.12);">🎓</div>
+            <h4>Youth Development</h4>
+            <p>Internships and skill-building programs for tomorrow's leaders.</p>
+          </div>
+
+          <div class="about-card reveal reveal-delay-3">
+            <div class="about-icon" style="background:rgba(26,188,156,0.12);">🤲</div>
+            <h4>Community Support</h4>
+            <p>Food, clothes, and essentials for vulnerable communities.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+     PROJECTS SECTION
+══════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">Our Impactful Projects</p>
+      <h2 class="section-title">Six Pillars of Change</h2>
+      <p class="section-sub">
+        Every initiative is a promise — to a child, a woman, an animal, a community, the planet.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- SEVA -->
+        <div class="project-card reveal">
+          <div class="project-img" style="background:linear-gradient(135deg,#e74c3c22,#e74c3c44);">
+            <span>🍚</span>
+          </div>
+          <div class="project-body">
+            <h3>SEVA</h3>
+            <p>Helping those in need with food, clothes, and daily essentials. We believe no one should sleep hungry or
+              without dignity.</p>
+            <span class="project-tag" style="background:rgba(231,76,60,0.1);color:#c0392b;">Community Relief</span>
+          </div>
+        </div>
+
+        <!-- BACHPANSHALA -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-img" style="background:linear-gradient(135deg,#3498db22,#3498db44);">
+            <span>📚</span>
+          </div>
+          <div class="project-body">
+            <h3>BACHPANSHALA</h3>
+            <p>Providing education and compassionate care to underprivileged children, nurturing their potential for a
+              brighter future.</p>
+            <span class="project-tag" style="background:rgba(52,152,219,0.1);color:#2980b9;">Education</span>
+          </div>
+        </div>
+
+        <!-- JEEV -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-img" style="background:linear-gradient(135deg,#f39c1222,#f39c1244);">
+            <span>🐾</span>
+          </div>
+          <div class="project-body">
+            <h3>JEEV</h3>
+            <p>Supporting and rescuing animals in distress. Every creature deserves love, safety, and the right to live
+              without suffering.</p>
+            <span class="project-tag" style="background:rgba(243,156,18,0.1);color:#d68910;">Animal Welfare</span>
+          </div>
+        </div>
+
+        <!-- UDAAN -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-img" style="background:linear-gradient(135deg,#9b59b622,#9b59b644);">
+            <span>🎓</span>
+          </div>
+          <div class="project-body">
+            <h3>UDAAN</h3>
+            <p>Empowering women with vocational skills, entrepreneurship training, and life-changing opportunities to
+              soar higher.</p>
+            <span class="project-tag" style="background:rgba(155,89,182,0.1);color:#8e44ad;">Women Empowerment</span>
+          </div>
+        </div>
+
+        <!-- PRAKRITI -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-img" style="background:linear-gradient(135deg,#2ecc7122,#2ecc7144);">
+            <span>🌿</span>
+          </div>
+          <div class="project-body">
+            <h3>PRAKRITI</h3>
+            <p>Protecting our environment through tree plantation, clean-up drives, and awareness campaigns for a
+              sustainable India.</p>
+            <span class="project-tag" style="background:rgba(46,204,113,0.1);color:#27ae60;">Environment</span>
+          </div>
+        </div>
+
+        <!-- VIKAS -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-img" style="background:linear-gradient(135deg,#1abc9c22,#1abc9c44);">
+            <span>✨</span>
+          </div>
+          <div class="project-body">
+            <h3>VIKAS</h3>
+            <p>Helping youth grow through structured internships, mentorship, and skill-building programs that shape
+              future leaders.</p>
+            <span class="project-tag" style="background:rgba(26,188,156,0.1);color:#16a085;">Youth Development</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+     ACHIEVEMENTS SECTION
+══════════════════════════════════════════ -->
+  <section id="achievements">
+    <div class="container">
+      <p class="section-label" style="text-align:center;">Our Impact in Numbers</p>
+      <h2 class="section-title" style="text-align:center;">The Change We've Created</h2>
+      <p class="section-sub" style="text-align:center; margin:0 auto 56px;">
+        Numbers that represent real lives touched, real futures changed.
+      </p>
+
+      <div class="achievements-grid">
+
+        <div class="achievement-card reveal">
+          <span class="achievement-icon">🎓</span>
+          <span class="achievement-num" data-target="30000">0</span>
+          <span class="achievement-label">Interns Trained</span>
+        </div>
+
+        <div class="achievement-card reveal reveal-delay-1">
+          <span class="achievement-icon">🍱</span>
+          <span class="achievement-num" data-target="50000">0</span>
+          <span class="achievement-label">Meals Distributed</span>
+        </div>
+
+        <div class="achievement-card reveal reveal-delay-2">
+          <span class="achievement-icon">🌳</span>
+          <span class="achievement-num" data-target="20000">0</span>
+          <span class="achievement-label">Trees Planted</span>
+        </div>
+
+        <div class="achievement-card reveal reveal-delay-1">
+          <span class="achievement-icon">⭐</span>
+          <span class="achievement-num" data-target="250">0</span>
+          <span class="achievement-label">Permanent Interns</span>
+        </div>
+
+        <div class="achievement-card reveal reveal-delay-2">
+          <span class="achievement-icon">🗺️</span>
+          <span class="achievement-num" data-target="28" data-no-plus="true">0</span>
+          <span class="achievement-label">States Connected</span>
+        </div>
+
+        <div class="achievement-card reveal reveal-delay-3">
+          <span class="achievement-icon">🤝</span>
+          <span class="achievement-num" data-target="50000">0</span>
+          <span class="achievement-label">Beneficiaries Reached</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+     GALLERY SECTION
+══════════════════════════════════════════ -->
+  <section id="gallery">
+    <div class="container">
+      <p class="section-label">Gallery</p>
+      <h2 class="section-title">Moments of Change</h2>
+      <p class="section-sub">A glimpse into the lives we've touched and the communities we've served.</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <img src="photos/1738238755.jpg" alt="Gallery Image 1" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/1738048982.jpg" alt="Gallery Image 2" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/1738054473.jpg" alt="Gallery Image 3" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/1738054440.jpg" alt="Gallery Image 4" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/1738238725.jpg" alt="Gallery Image 5" class="gallery-img">
+        </div>
+        <div class="gallery-item large">
+          <img src="photos/1738238744.jpg" alt="Gallery Image 6" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/1738299164.jpg" alt="Gallery Image 7" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="photos/1743051382.jpg" alt="Gallery Image 8" class="gallery-img">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+     SOCIAL IMPACT SECTION
+══════════════════════════════════════════ -->
+  <section id="impact">
+    <div class="container">
+      <div class="impact-grid">
+
+        <!-- Left: Story Points -->
+        <div>
+          <p class="section-label">Social Impact</p>
+          <h2 class="section-title">Building A Compassionate India</h2>
+          <p class="section-sub" style="margin-bottom:40px;">
+            Through every initiative, we are weaving a stronger social fabric across the nation.
+          </p>
+
+          <div class="impact-points">
+
+            <div class="impact-point reveal">
+              <div class="impact-icon-wrap" style="background:rgba(52,152,219,0.12);">🤲</div>
+              <div>
+                <h4>Helping Underprivileged Communities</h4>
+                <p>Providing food, clothing, and essentials to those who need it most, restoring dignity one act at a
+                  time.</p>
+              </div>
+            </div>
+
+            <div class="impact-point reveal reveal-delay-1">
+              <div class="impact-icon-wrap" style="background:rgba(46,204,113,0.12);">♻️</div>
+              <div>
+                <h4>Environmental Responsibility</h4>
+                <p>Planting trees and cleaning communities to leave a greener, healthier planet for future generations.
+                </p>
+              </div>
+            </div>
+
+            <div class="impact-point reveal reveal-delay-2">
+              <div class="impact-icon-wrap" style="background:rgba(155,89,182,0.12);">💪</div>
+              <div>
+                <h4>Empowering Youth &amp; Women</h4>
+                <p>Equipping individuals with skills, confidence, and opportunities to lead independently.</p>
+              </div>
+            </div>
+
+            <div class="impact-point reveal reveal-delay-3">
+              <div class="impact-icon-wrap" style="background:rgba(241,196,15,0.12);">🏘️</div>
+              <div>
+                <h4>Sustainable Social Impact</h4>
+                <p>Creating lasting change that continues to grow through communities themselves.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Progress Bars Card -->
+        <div class="impact-visual reveal">
+          <h3>Impact Across Sectors</h3>
+
+          <div class="impact-bar-item">
+            <div class="impact-bar-label">Youth Development <span>30K+ Interns</span></div>
+            <div class="impact-bar-track">
+              <div class="impact-bar-fill" style="width:92%; background:linear-gradient(90deg,#3498db,#2980b9);"></div>
+            </div>
+          </div>
+
+          <div class="impact-bar-item">
+            <div class="impact-bar-label">Community Relief <span>50K+ Meals</span></div>
+            <div class="impact-bar-track">
+              <div class="impact-bar-fill" style="width:85%; background:linear-gradient(90deg,#e74c3c,#c0392b);"></div>
+            </div>
+          </div>
+
+          <div class="impact-bar-item">
+            <div class="impact-bar-label">Environment <span>20K+ Trees</span></div>
+            <div class="impact-bar-track">
+              <div class="impact-bar-fill" style="width:78%; background:linear-gradient(90deg,#2ecc71,#27ae60);"></div>
+            </div>
+          </div>
+
+          <div class="impact-bar-item">
+            <div class="impact-bar-label">Women Empowerment <span>UDAAN</span></div>
+            <div class="impact-bar-track">
+              <div class="impact-bar-fill" style="width:70%; background:linear-gradient(90deg,#9b59b6,#8e44ad);"></div>
+            </div>
+          </div>
+
+          <div class="impact-bar-item">
+            <div class="impact-bar-label">Geographic Reach <span>28 States</span></div>
+            <div class="impact-bar-track">
+              <div class="impact-bar-fill" style="width:82%; background:linear-gradient(90deg,#f39c12,#d68910);"></div>
+            </div>
+          </div>
+
+          <div class="impact-total">
+            <div class="impact-total-num">50,000+</div>
+            <div class="impact-total-label">Total Beneficiaries Reached</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+     CALL TO ACTION SECTION
+══════════════════════════════════════════ -->
+  <section id="cta">
+    <div class="container" style="position:relative; z-index:2;">
+      <p class="section-label" style="color:rgba(255,255,255,0.6); text-align:center;">Take Action</p>
+      <h2 class="section-title" style="text-align:center;">Let's Make a Difference Together 🥳</h2>
+      <p class="section-sub" style="text-align:center;">
+        As an intern and volunteer, you can contribute to real causes while gaining
+        valuable experience and creating social impact across India.
+      </p>
+      <div class="cta-btns">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScAgWgiWEjMm5N5HO9f-kF5_MNCsFu0AjfF9-sFnWGYdJG7Jg/viewform"
+          target="_blank" class="btn-white">Volunteer</a>
+        <a href="contact.html" class="btn-outline-white">Join Us</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-grid">
+
+      <!-- Brand Column -->
+      <div class="footer-brand">
+        <div class="footer-brand-row">
+          <img src="logo.png" alt="InAmigos Foundation Logo" class="footer-logo-img" />
+          <span class="footer-logo-name">InAmigos Foundation</span>
+        </div>
+        <p>
+          Uniting minds and hearts across India to create meaningful, lasting
+          social change — one initiative at a time.
+        </p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/109800320841732/posts/289306342891128/" target="_blank"
+            class="social-btn facebook" aria-label="Facebook">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/company/inamigos-foundation" target="_blank" class="social-btn linkedin"
+            aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+            </svg>
+          </a>
+          <a href="https://twitter.com/InamigosF?s=08" target="_blank" class="social-btn twitter" aria-label="Twitter">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.064-6.932zm-1.292 19.49h2.039L6.486 3.24H4.298l13.311 17.403z" />
+            </svg>
+          </a>
+          <a href="https://instagram.com/inamigos?utm_medium=copy_link" target="_blank" class="social-btn instagram"
+            aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.981 1.281.058 1.688.072 4.948.072s3.667-.014 4.947-.072c4.351-.2 6.78-2.618 6.981-6.98.058-1.281.072-1.689.072-4.948s-.014-3.667-.072-4.947c-.2-4.352-2.618-6.78-6.98-6.981C15.667.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
+          </a>
+          <a href="https://youtube.com/@inamigosfoundation4296" target="_blank" class="social-btn youtube"
+            aria-label="YouTube">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="#about">Learn About Us</a></li>
+          <li><a href="#projects">Our Current Projects</a></li>
+          <li><a href="events.html">Events & Updates</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 InAmigos Foundation. All rights reserved.</span>
+      <span>Made with <span class="accent">♥</span> for a better India</span>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
