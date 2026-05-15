@@ -20,4 +20,4 @@ A simple static website for InAmigos showcasing events, contact information, and
 ## Notes
 
 - This is a static website and does not require a server for basic browsing.
-- Add assets to `events/` and `photos/` as needed.
+
